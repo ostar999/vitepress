@@ -7,7 +7,7 @@ const pkg = require('vitepress/package.json')
 export const en = defineConfig({
   lang: 'en-US',
   description: 'Vite & Vue powered static site generator.',
-
+  base: '/vitepress/',
   themeConfig: {
     nav: nav(),
 
@@ -31,7 +31,7 @@ export const en = defineConfig({
 function nav(): DefaultTheme.NavItem[] {
   return [
     {
-      text: 'Guide',
+      text: 'Guide2',
       link: '/guide/what-is-vitepress',
       activeMatch: '/guide/'
     },
