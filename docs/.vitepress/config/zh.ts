@@ -61,6 +61,11 @@ function nav(): DefaultTheme.NavItem[] {
       activeMatch: '/zh/guide/'
     },
     {
+      text: 'ai',
+      link: '/zh/ai/ai-yy',
+      activeMatch: '/zh/guide/'
+    },
+    {
       text: '参考',
       link: '/zh/reference/site-config',
       activeMatch: '/zh/reference/'
